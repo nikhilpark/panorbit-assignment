@@ -1,0 +1,91 @@
+#mainCont {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  #leftGrid {
+    justify-self: center;
+    max-width: 35vh;
+
+    #userImg {
+      margin-top: 4vh;
+      img {
+        width: 11rem;
+        height: 11rem;
+        object-fit: cover;
+        border-radius: 11rem;
+      }
+      div {
+        margin: 1vh 0;
+        font-size: 1.2rem;
+      }
+    }
+    #userDetails {
+      div {
+        margin-top: 2vh;
+
+        span {
+          &:nth-of-type(1) {
+            color: rgb(138, 136, 136);
+          }
+
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    #userCompanyDetails {
+      div {
+        margin-top: 2vh;
+
+        span {
+          &:nth-of-type(1) {
+            color: rgb(138, 136, 136);
+          }
+
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  #rightGrid {
+    font-size: 1.2rem;
+    margin-top: 4vh;
+    border-left: 1px solid lightgray;
+    padding: 2rem;
+    #address {
+
+        div{
+            margin: 1rem 6rem 0.5rem 2rem;
+
+            span {
+                &:nth-of-type(1) {
+                  color: rgb(138, 136, 136);
+                }
+      
+                font-size: 1.2rem;
+              }
+        }
+      
+    
+    }
+    #gMap
+    
+    iframe{
+        border: none;
+        border-radius: 25px;
+        width: 100%;
+        height: 20vw;
+        
+    }
+    #latlng{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0;
+        div{
+            font-size: 1rem;
+            margin:0 0.4rem;
+        }   
+    }
+  }
+}

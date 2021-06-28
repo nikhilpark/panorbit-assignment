@@ -1,0 +1,103 @@
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem;
+    margin-left:5% ;
+    margin-right: 5%;
+    border-bottom: 2px solid rgb(221, 210, 210);
+    width: 90%;
+
+    #rightFlex{
+        display: flex;
+        align-items: center;
+        div{
+            
+            padding: 0.2rem;
+            img{
+                width:30px;
+                height: 30px;
+                border-radius:25px;
+                object-fit: cover;
+            }
+        
+        margin: 0 0.2rem;
+    }
+        &:hover{
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.068);
+            border-radius: 25px;
+           
+           
+        }
+    } 
+}
+
+#tippyCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16.5vw;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.68);
+    #tippyProfile{
+        margin-top: 4vh;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 5.5vw;
+            height: 5.5vw;
+            object-fit: cover;
+            border-radius: 5.5vw;
+        }
+        margin-bottom: 1rem;
+        span{
+            color: rgb(139, 139, 139);
+        }
+    }
+    }
+}
+
+#logOutBtn{
+    button{
+    background-color: transparent;
+    border: 1px solid red;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    padding: 0.6rem 1.4rem;
+    &:hover{
+        cursor: pointer;
+        background-color: red;
+        color: white;
+        transition: 0.4s ease-in-out;
+    }
+    margin-bottom: 2rem;
+}
+}
+
+.altUsers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+    padding: 0.2rem 1rem ;
+    &:hover{
+        cursor: pointer;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.158);
+    }
+    div{
+        margin-left: 0.4rem;
+    
+    img{
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+}
+}

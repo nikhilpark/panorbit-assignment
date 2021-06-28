@@ -1,0 +1,36 @@
+#abs{
+    position: absolute;
+    right:3vw;
+    bottom: 0;
+#chatBox{
+ 
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    width: 14vw;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0.4rem 1rem;
+    color: white;
+    &:hover{
+        cursor: pointer;
+    }
+    display: flex;
+    #chatIcon{
+        filter: invert(1);
+        margin-right: 0.4rem;
+    }
+    #chatText{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+#chatBody{
+    z-index: 100;
+    width: 14vw;
+    background-color: white;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.68);
+
+
+}
+}
