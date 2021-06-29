@@ -1,6 +1,6 @@
 Dependency list - 
 
-1. NodeJS
-2. Npm Packages
-  2.1 Axios
-  2.2 React
+1. React             https://www.npmjs.com/package/react
+2. Axios             https://www.npmjs.com/package/axios
+3. Sass              https://www.npmjs.com/package/sass
+4. @tippyjs.react    https://www.npmjs.com/package/@tippyjs/react
