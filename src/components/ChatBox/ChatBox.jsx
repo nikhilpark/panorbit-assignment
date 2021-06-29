@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Axios from "axios";
 import "./ChatBox.scss";
 import ChatIcon from "./ChatIcon.png";
-import UserChat from "./UserChat/UserChat";
 import OnlineIcon from "./OnlineIcon.png";
 const ChatBox = () => {
   const [chatStyle, setChatStyle] = useState({
