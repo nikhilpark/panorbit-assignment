@@ -1,5 +1,5 @@
 To run the code make sure you have nodejs and git installed and
-follow the following instructions to run the code :-
+follow the following instructions :-
 
 1.  Open a terminal and clone the repo using -
 ```
@@ -9,11 +9,11 @@ git clone https://github.com/nikhilpark/panorbit-assignment
 ```
 cd panorbit-assignment
 ```
-3.  Install the dependecies using - 
+3.  Install the dependencies using - 
 ```
 npm install
 ```
-4.  Finally Run the app using
+4.  Finally Run the app using - 
 ```
 npm start
 ```
